@@ -79,3 +79,63 @@
     color: #48494b;
 }
 
+
+.second-section{
+    background: url(./image/Prog-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.program{
+    padding:50px;
+}
+
+.program-intro{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.program-intro hr{
+    height: 5px;
+    width: 50px;
+    color: rgba(236, 82, 66, 1);
+    opacity: 1;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.program-content{
+    display: flex;
+    gap: 5px;
+    flex: 1 1 0px
+}
+
+.card{
+    background-color:rgba(90, 88, 88, 0.392);
+}
+
+.card h5{
+    color: rgb(236, 82, 66);
+}
+
+.card-text{
+    color: #D3D3D3;
+}
+
+.whole-session{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 16px;
+    text-align: center;
+    
+    margin: 20px auto;
+   
+}
+
+.whole-session a{
+    text-decoration: none;
+    color: #fff;
+}
