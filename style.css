@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.navbar-container{
+    padding: 0 50px;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+.campaign{
+    border: 5px solid  rgb(236, 82, 66);
+}
+
+
+.first-section{
+    background: url(./image/conference-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.title{
+    padding: 200px 50px 100px 50px;
+}
+
+.title h1{
+    background-image: url(./image/title-bg.jpg);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+.title-paragraph{
+    color: rgb(236, 82, 66);
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.quote{
+    border: 3px solid #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    color: #272A31;
+    background-color: rgb(211, 211, 211, 0.3);
+    margin-top: 40px;
+}
+
+.date{
+    font-size: 28px;
+    font-weight: 800;
+    color: #48494b;
+}
+
+.venue{
+    font-size: 24px;
+    font-weight: bold;
+    color: #48494b;
+}
+
