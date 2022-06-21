@@ -172,13 +172,13 @@
 .speakers-bio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 10px;
+    padding: 50px;
 }
 
 .speaker {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 20px 0;
     position: relative;
 }
 
@@ -247,6 +247,9 @@
     flex-wrap: wrap;
     color: rgb(218, 218, 218);
     justify-content: center;
+    cursor: pointer;
+    filter: grayscale(100%);
+    padding: 20px;
 }
 
 .partner li {
@@ -272,6 +275,7 @@
 .custom ul li {
     list-style: none;
     font-weight: 700;
+    
 }
 
 /* Min width */
@@ -282,7 +286,7 @@
     }
     
     .title-paragraph {
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 700;
     }
     .quote {
@@ -319,6 +323,7 @@
         gap: 10px;
         padding: 10px;
         width: 100%;
+        
     }
 
     .card-body{
@@ -360,13 +365,31 @@
     .speaker-img {
         width: 150px;
         height: 200px;
-    
-    }
+  
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+
     
     
     .program-content {
         display: flex;
         flex-direction: column;
         gap: 5px;
+    }
+
+    .partner ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .partner li {
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 600;
     }
 }
