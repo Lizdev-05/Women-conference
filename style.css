@@ -16,6 +16,10 @@
   scroll-behavior: smooth;
 }
 
+.global{
+    width: 100vw;
+}
+
 .navbar{
     background-color: #fff;
 }
@@ -32,6 +36,15 @@
     border: 5px solid  rgb(236, 82, 66);
 }
 
+.logo{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid  rgb(236, 82, 66);
+    font-size: 12px;
+    font-weight: 800;
+    color: #49494b;
+}
 
 .first-section{
     background: url(./image/conference-bg.png);
@@ -110,7 +123,6 @@
 .program-content{
     display: flex;
     gap: 5px;
-    flex: 1 1 0px
 }
 
 .card{
@@ -138,4 +150,124 @@
 .whole-session a{
     text-decoration: none;
     color: #fff;
+}
+
+.speakers-intro h1{
+   color: #3f3f3f;
+   font-size: 32px;
+   font-weight: 600;
+   text-align: center;
+   margin: 20px auto;
+}
+.speakers-intro hr{
+    height: 5px;
+    width: 50px;
+    color: rgba(236, 82, 66, 1);
+    opacity: 1;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.speakers-bio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+}
+
+.speaker{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    position: relative;
+}
+
+.speaker-bg{
+    background: url(./image/speaker-bg.jpeg) 0 0 no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    z-index: -1;
+}
+
+.speaker-img{
+    width: 300px;
+    height: 200px;
+
+}
+
+.speaker h1{
+    color: #272A31;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.speaker h3{
+    font-size: 18px;
+    color:rgb(236, 82, 66);
+    font-style: italic;
+}
+
+.speaker p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.speaker-content{
+    padding: 0 20px;
+}
+
+.partner{
+    background-color: rgba(21, 20, 20, 0.871) ;
+    text-align: center;
+}
+
+.partner h1{
+    color: rgb(218, 218, 218);
+   font-size: 32px;
+   font-weight: 600;
+   text-align: center;
+   margin: 20px auto;
+}
+.partner hr{
+    height: 5px;
+    width: 50px;
+    color: rgba(236, 82, 66, 1);
+    opacity: 1;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.partner ul{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(218, 218, 218);
+    justify-content: center;
+}
+
+.partner li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 20px 20px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.custom{
+    background-color: #fff;
+}
+
+.custom ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.custom ul li{
+    list-style: none;
+    font-weight: 700;
 }
