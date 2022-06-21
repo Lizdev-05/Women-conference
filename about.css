@@ -157,7 +157,7 @@
 
 .event-img {
     width: 100%;
-    height: 300px;
+    height: 50%;
     display: flex;
     justify-content: center;
     padding: 50px;
@@ -166,8 +166,8 @@
 
 .event-content{
     position: absolute;
-    top: 100px;
-    left: 250px;
+    top: 30%;
+    left: 35%;
     background: none;
 }
 
@@ -179,7 +179,7 @@
   
 footer {
     background-color:rgb(46, 45, 45);
-    margin-top: 80px;
+    margin-top: 10%;
     color: rgb(238, 234, 234);
 }
 
@@ -200,18 +200,68 @@ footer {
 
 /* Min Width */
 
+
 @media only screen and (max-width: 768px){
+    .title h1 {
+        font-weight: 900;
+        font-size: 25px;
+     }
+     
+     .title-paragraph {
+         font-size: 21px;
+         font-weight: 700;
+     }
+     .quote {
+         border: 3px solid #fff;
+         font-size: 16px;
+         font-weight: 600;
+     }
+     
+
     .wp-logo p {
-        width: 70%;
+        width: 95%;
     }
     
     
     .logo-box {
-        border: 2px solid grey;
-        width: 40%;
-        text-align: center;
-        margin: 20px auto;
-        padding: 20px 0;
-    
+        width: 90%;    
     }
+
+    .event{
+        position: relative;
+        top: 10%;
+        
+    }
+
+    .event-img {
+        display: flex;
+      flex-direction: column;
+      
+    }
+
+    footer{
+        margin-top: 10%;
+    }
+
+    .event-content{
+       
+        top: 20%;
+        left: 20%;
+        background: none;
+    }
+
+    footer .hid{
+        display: none
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 520px){
+    .event-content{
+        position: absolute;
+        top: 33%;
+        left: 35%;
+        background: none;
+    }
+    
+    
 }
