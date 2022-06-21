@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,67 +10,68 @@
 *,
 ::before,
 ::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.global{
+.global {
     width: 100vw;
 }
 
-.navbar{
+.navbar {
     background-color: #fff;
 }
 
-.navbar-container{
+.navbar-container {
     padding: 0 50px;
 }
 
-.nav-item{
+.nav-item {
     margin-left: 20px;
 }
 
-.campaign{
-    border: 5px solid  rgb(236, 82, 66);
+.campaign {
+    border: 5px solid rgb(236, 82, 66);
 }
 
-.logo{
+.logo {
     background-color: #fff;
     border-radius: 50%;
     padding: 5px;
-    border: 2px solid  rgb(236, 82, 66);
+    border: 2px solid rgb(236, 82, 66);
     font-size: 12px;
     font-weight: 800;
     color: #49494b;
 }
 
-.first-section{
+.first-section {
     background: url(./image/conference-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+
 }
 
-.title{
+.title {
     padding: 200px 50px 100px 50px;
 }
 
-.title h1{
+.title h1 {
     background-image: url(./image/title-bg.jpg);
     background-size: contain;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
 }
-.title-paragraph{
+
+.title-paragraph {
     color: rgb(236, 82, 66);
     font-size: 32px;
     font-weight: 500;
 }
 
-.quote{
+.quote {
     border: 3px solid #fff;
     font-size: 18px;
     font-weight: 400;
@@ -80,38 +81,38 @@
     margin-top: 40px;
 }
 
-.date{
+.date {
     font-size: 28px;
     font-weight: 800;
     color: #48494b;
 }
 
-.venue{
+.venue {
     font-size: 24px;
     font-weight: bold;
     color: #48494b;
 }
 
 
-.second-section{
+.second-section {
     background: url(./image/Prog-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
 }
 
-.program{
-    padding:50px;
+.program {
+    padding: 50px;
 }
 
-.program-intro{
+.program-intro {
     color: #fff;
     text-align: center;
     align-items: center;
-    
+
 }
 
-.program-intro hr{
+.program-intro hr {
     height: 5px;
     width: 50px;
     color: rgba(236, 82, 66, 1);
@@ -120,46 +121,46 @@
     margin: 20px auto;
 }
 
-.program-content{
+.program-content {
     display: flex;
     gap: 5px;
 }
 
-.card{
-    background-color:rgba(90, 88, 88, 0.392);
+.card {
+    background-color: rgba(90, 88, 88, 0.392);
 }
 
-.card h5{
+.card h5 {
     color: rgb(236, 82, 66);
 }
 
-.card-text{
+.card-text {
     color: #D3D3D3;
 }
 
-.whole-session{
+.whole-session {
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 16px;
     text-align: center;
-    
     margin: 20px auto;
-   
+
 }
 
-.whole-session a{
+.whole-session a {
     text-decoration: none;
     color: #fff;
 }
 
-.speakers-intro h1{
-   color: #3f3f3f;
-   font-size: 32px;
-   font-weight: 600;
-   text-align: center;
-   margin: 20px auto;
+.speakers-intro h1 {
+    color: #3f3f3f;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px auto;
 }
-.speakers-intro hr{
+
+.speakers-intro hr {
     height: 5px;
     width: 50px;
     color: rgba(236, 82, 66, 1);
@@ -168,20 +169,20 @@
     margin: 20px auto;
 }
 
-.speakers-bio{
+.speakers-bio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 10px;
 }
 
-.speaker{
+.speaker {
     display: flex;
     justify-content: space-between;
-    margin: 10px 30px;
+    margin: 10px;
     position: relative;
 }
 
-.speaker-bg{
+.speaker-bg {
     background: url(./image/speaker-bg.jpeg) 0 0 no-repeat;
     background-size: 100%;
     width: 80px;
@@ -192,46 +193,47 @@
     z-index: -1;
 }
 
-.speaker-img{
-    width: 300px;
-    height: 200px;
+.speaker-img {
+    width: 150px;
+    height: 150px;
 
 }
 
-.speaker h1{
+.speaker h1 {
     color: #272A31;
     font-size: 28px;
     font-weight: 500;
 }
 
-.speaker h3{
+.speaker h3 {
     font-size: 18px;
-    color:rgb(236, 82, 66);
+    color: rgb(236, 82, 66);
     font-style: italic;
 }
 
-.speaker p{
+.speaker p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
-.speaker-content{
+.speaker-content {
     padding: 0 20px;
 }
 
-.partner{
-    background-color: rgba(21, 20, 20, 0.871) ;
+.partner {
+    background-color: rgba(21, 20, 20, 0.871);
     text-align: center;
 }
 
-.partner h1{
+.partner h1 {
     color: rgb(218, 218, 218);
-   font-size: 32px;
-   font-weight: 600;
-   text-align: center;
-   margin: 20px auto;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px auto;
 }
-.partner hr{
+
+.partner hr {
     height: 5px;
     width: 50px;
     color: rgba(236, 82, 66, 1);
@@ -240,14 +242,14 @@
     margin: 20px auto;
 }
 
-.partner ul{
+.partner ul {
     display: flex;
     flex-wrap: wrap;
     color: rgb(218, 218, 218);
     justify-content: center;
 }
 
-.partner li{
+.partner li {
     text-decoration: none;
     list-style: none;
     padding: 10px 20px 20px 20px;
@@ -255,11 +257,11 @@
     font-weight: 600;
 }
 
-.custom{
+.custom {
     background-color: #fff;
 }
 
-.custom ul{
+.custom ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -267,7 +269,104 @@
     padding: 20px;
 }
 
-.custom ul li{
+.custom ul li {
     list-style: none;
     font-weight: 700;
+}
+
+/* Min width */
+@media only screen and (max-width: 768px) {
+    .title h1 {
+       font-weight: 900;
+       font-size: 25px;
+    }
+    
+    .title-paragraph {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .quote {
+        border: 3px solid #fff;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .date {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    .venue {
+        font-size: 20px;
+        font-weight: bold;
+        color: #48494b;
+    }
+
+
+    .program {
+        padding: 20px;
+    }
+
+    .card-body img{
+        max-width: 40px;
+        min-height: 40px;
+       
+    }
+    .card-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .card-body{
+        font-size: 14px;
+        line-height: 20px;
+        flex: 1;
+    }
+    .program-content {
+        display: flex;
+        gap: 5px;
+    }
+    
+    .speakers-bio {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        padding-bottom: 20px;
+    }
+
+    .speaker h1 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .speaker h3 {
+        font-size: 16px;
+        color: rgb(236, 82, 66);
+        font-style: italic;
+    }
+    
+    
+    .speaker-content {
+        padding: 0 20px;
+    }
+    
+    .speaker-img {
+        width: 150px;
+        height: 200px;
+    
+    }
+    
+    
+    .program-content {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
 }
