@@ -5,6 +5,7 @@
     line-height: 1.5;
     font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 *,
@@ -16,9 +17,6 @@
     scroll-behavior: smooth;
 }
 
-.global {
-    width: 100vw;
-}
 
 .navbar {
     background-color: #fff;
@@ -98,7 +96,7 @@
     background: url(./image/Prog-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
 }
 
 .program {
