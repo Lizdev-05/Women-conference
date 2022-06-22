@@ -121,7 +121,15 @@
 
 .card {
   background-color: rgba(90, 88, 88, 0.392);
+  transition: 0.4s;
+  cursor: pointer;
 }
+
+.card:hover{
+    transform: scale(0.9);
+    
+}
+
 
 .card h5 {
   color: rgb(236, 82, 66);
@@ -155,7 +163,7 @@
 .speakers-intro hr {
   height: 5px;
   width: 50px;
-  color: rgba(236, 82, 66, 1);
+  color: rgb(235, 33, 11);
   opacity: 1;
   text-align: center;
   margin: 20px auto;
@@ -311,7 +319,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
     width: 100%;
     font-size: 14px;
     line-height: 20px;
@@ -331,7 +339,14 @@
     align-items: center;
     flex-direction: column;
     gap: 5px;
-    padding-bottom: 20px;
+    padding: 0;
+  }
+
+  .speaker {
+      width: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin: 10px 0;
   }
 
   .speaker h1 {
@@ -350,11 +365,16 @@
   }
 
   .speaker-img {
-    width: 150px;
-    height: 200px;
+    width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
   }
+
+  .speaker p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
 
   .partner ul {
     display: flex;
