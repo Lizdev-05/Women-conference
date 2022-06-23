@@ -197,6 +197,10 @@ footer {
 /* Min Width */
 
 @media only screen and (max-width: 768px) {
+  .header-icon {
+    display: none;
+  }
+
   .title h1 {
     font-weight: 900;
     font-size: 25px;
