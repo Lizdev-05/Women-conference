@@ -62,6 +62,10 @@
   margin-left: 20px;
 }
 
+span .navbar-toggler-icon{
+  font-size: 32px;
+}
+
 .campaign {
   border: 5px solid rgb(236, 82, 66);
 }
