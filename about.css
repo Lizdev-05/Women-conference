@@ -20,6 +20,10 @@
   background-color: #fff;
 }
 
+.navbar a {
+  color: #272a31;
+}
+
 .navbar-container {
   padding: 0 50px;
 }
@@ -88,6 +92,10 @@
   color: #272a31;
   text-decoration: underline;
   font-weight: 600;
+}
+
+.navbar a:hover {
+  color: rgb(236, 82, 66);
 }
 
 .wp-logo {

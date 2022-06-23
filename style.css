@@ -20,6 +20,10 @@
   background-color: #fff;
 }
 
+.navbar a {
+  color: #272a31;
+}
+
 .navbar-container {
   padding: 0 50px;
 }
@@ -125,11 +129,9 @@
   cursor: pointer;
 }
 
-.card:hover{
-    transform: scale(0.9);
-    
+.card:hover {
+  transform: scale(0.9);
 }
-
 
 .card h5 {
   color: rgb(236, 82, 66);
@@ -150,6 +152,10 @@
 .whole-session a {
   text-decoration: none;
   color: #fff;
+}
+
+.navbar a:hover {
+  color: rgb(236, 82, 66);
 }
 
 .speakers-intro h1 {
@@ -343,7 +349,7 @@
   }
 
   .speaker {
-      width: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 35% 65%;
     margin: 10px 0;
@@ -374,7 +380,6 @@
     font-size: 16px;
     font-weight: 400;
   }
-  
 
   .partner ul {
     display: flex;
